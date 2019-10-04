@@ -4,7 +4,7 @@ b = int(input())
 c = int(input())
 discr = b**2 - 4*a*c
 if (a and b) ==0 :
-    print("Нет решений")
+    print(" ")
 else:
     if discr >= 0:
         if a == 0:
