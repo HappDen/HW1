@@ -19,4 +19,4 @@ else:
         x = -b / (2*a)
         print("x1=:%.2f" % x)
     else:
-            print(" ")
+        print(" ")
