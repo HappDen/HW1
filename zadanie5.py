@@ -6,7 +6,7 @@ discr = b**2 - 4*a*c
 if (a and b) ==0 :
     print(" ")
 else:
-    if discr >= 0:
+    if discr > 0:
         if a == 0:
             x1 = (c/b)
             print("x1:-%.2f" % x1)
