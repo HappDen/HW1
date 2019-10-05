@@ -9,8 +9,8 @@ if a==0 and b==0:
 else:
     if discr > 0:
         if a == 0:
-            x1 = (c/b)
-            print("x1:-%.2f" % x1)
+            x1 = (c/-b)
+            print("x1:%.2f" % x1)
         else:
             x1 = (-b + math.sqrt(discr))/ (2*a)
             x2 = (-b - math.sqrt(discr))/ (2*a) 
@@ -20,4 +20,3 @@ else:
         print("x1=:%.2f" % x)
     else:
         print(" ")
-
